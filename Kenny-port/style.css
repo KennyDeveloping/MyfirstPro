@@ -1,0 +1,43 @@
+html {
+  background-color: lightseagreen;
+}
+nav {
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background-color: maroon;
+  margin-top: -5%;
+}
+h1 {
+  text-align: center;
+  font-size: 45px;
+  font-style: oblique;
+  color: azure;
+}
+h2 {
+  text-align: center;
+  font-size: 30px;
+  color: azure;
+}
+hr {
+  width: 75%;
+  border: 1px solid;
+  color: azure;
+}
+ol,
+li,
+a {
+  color: red;
+}
+img {
+  width: 70%;
+  height: 50%;
+  margin-right: 0%;
+  margin-left: 15%;
+  padding: 0px;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+  color: antiquewhite;
+}
