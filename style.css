@@ -1,35 +1,62 @@
+/*Start with changing the whole background color of page*/
 html {
   background-color: lightseagreen;
 }
+/*Change color of navigation bar. Also, round the edges to a 30px*/
 nav {
   border-top-left-radius: 30px;
   border-bottom-right-radius: 30px;
   border-top-right-radius: 30px;
   border-bottom-left-radius: 30px;
-  background-color: maroon;
   margin-top: 0%;
+  background: coral;
 }
+/*Align and change all h1 tags*/
 h1 {
   text-align: center;
   font-size: 45px;
   font-style: oblique;
   color: azure;
 }
+/*align and change all h2 tags*/
 h2 {
   text-align: center;
   font-size: 30px;
   color: azure;
+
+  color: rgb(9, 63, 45);
+  margin: 0%;
 }
+/*Align and change all h3 tags*/
+h3 {
+  text-align: center;
+  color: antiquewhite;
+}
+/*For horizantal lines, change the width to be shorter than default*/
 hr {
   width: 75%;
   border: 1px solid;
   color: azure;
 }
+/*Change the colors of font inside the list*/
 ol,
 li,
 a {
   color: red;
 }
+/*Write pseudo code for color to change whenever a mouse hovers it*/
+p,
+ol,
+a:hover {
+  color: rgb(181, 199, 21);
+}
+/*When the mouse clicks on the links, write pseudo code to change color of the links.*/
+p,
+ol,
+a:active {
+  color: green;
+}
+/*Resize the size of image used on html*/
 img {
   width: 70%;
   height: 50%;
@@ -37,7 +64,9 @@ img {
   margin-left: 15%;
   padding: 0px;
 }
+/*align,change and give a font family to all paragraphs tags*/
 p {
+  text-align: center;
   font-family: "Times New Roman", Times, serif;
   color: antiquewhite;
 }
